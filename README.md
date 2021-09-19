@@ -7,4 +7,6 @@ jpg files start with the two bytes FF D8 (here in hex) and end with FF D9 (also 
 
 # how to use the utility 
 - arguments
-  - -a 
+  - -a = action the given parameter after -a defines the action you wanna perform r or read and w or write are the available options.
+  - -c = content defines the content you wanna write to an file (only selectable if you selected w or write as action)
+  - -f defines the file you wanna perform the action on (currently not checking of file is actually an jpg file)
